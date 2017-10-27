@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-27T14:15:42-04:00</updated><id>/</id><title type="html">Neutron Imaging Tutorial</title><subtitle>This web site will answer all your questions, but if you still can not find an answer to your problem, contact us.</subtitle><entry><title type="html">Jupyter notebook 101</title><link href="/software/2017/10/27/jupyter-notebook-101.html" rel="alternate" type="text/html" title="Jupyter notebook 101" /><published>2017-10-27T00:00:00-04:00</published><updated>2017-10-27T00:00:00-04:00</updated><id>/software/2017/10/27/jupyter-notebook-101</id><content type="html" xml:base="/software/2017/10/27/jupyter-notebook-101.html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6KPK3KcwvT0&quot;&gt;&lt;img src=&quot;/assets/jupyter_notebook_101/video_tutorial.png&quot; alt=&quot;video tutorial&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;takeaways&quot;&gt;Takeaways&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Run each cell from top to bottom using &lt;strong&gt;SHFIT + ENTER&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Run one cell at a time. Make sure the cell is done processing before executing the next cell.
+    &lt;ul&gt;
+      &lt;li&gt;top right closed circle means the notebook is running
+ &lt;img src=&quot;/assets/jupyter_notebook_101/progress.png&quot; alt=&quot;close circle&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;or background of cell is green
+ &lt;img src=&quot;/assets/jupyter_notebook_101/notebook_green_cell.png&quot; alt=&quot;green cell&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You may encounter &lt;strong&gt;widgets&lt;/strong&gt; inside the notebook. Make sure you interact with the widgets but do not run the cell again!
+ &lt;img src=&quot;/assets/jupyter_notebook_101/widgets.png&quot; alt=&quot;widgets&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;You will also have the option to select files or folders using an embedded file selector. Here how it works
+    &lt;ul&gt;
+      &lt;li&gt;to move up one folder, click the &lt;strong&gt;dot (..)&lt;/strong&gt; and click &lt;strong&gt;Enter directory&lt;/strong&gt;
+ &lt;img src=&quot;/assets/jupyter_notebook_101/fileselectorpanel.png&quot; alt=&quot;file selector&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;once you reacht the right folder or files, click the &lt;strong&gt;Select&lt;/strong&gt; button&lt;/li&gt;
+      &lt;li&gt;if you have the option to select several files, &lt;strong&gt;left click&lt;/strong&gt; all the files, or &lt;strong&gt;CTRL Click&lt;/strong&gt; each individual file.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="notebook" /><summary type="html"></summary></entry><entry><title type="html">How to launch the jupyter notebooks</title><link href="/software/2017/10/27/how-to-launch-python-notebook.html" rel="alternate" type="text/html" title="How to launch the jupyter notebooks" /><published>2017-10-27T00:00:00-04:00</published><updated>2017-10-27T00:00:00-04:00</updated><id>/software/2017/10/27/how-to-launch-python-notebook</id><content type="html" xml:base="/software/2017/10/27/how-to-launch-python-notebook.html">&lt;p&gt;You will first need to connect to our analysis computer (check post in this web site)&lt;/p&gt;
+
+&lt;p&gt;Start a terminal session. You may already see the &lt;strong&gt;terminal&lt;/strong&gt; icon at the top, or bottom of your screen&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_launch_python_notebook/click_terminal.png&quot; alt=&quot;launch terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;or, if you don’t see the icon, launch it via the list of programs&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_launch_python_notebook/start_terminal.png&quot; alt=&quot;launch terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, in the terminal window, type the following command&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;/SNS/users/j35/bin/start_jupyter notebooks&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will perform the following processes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;configure the system to run the right python environment&lt;/li&gt;
+  &lt;li&gt;bring all the notebooks into your environment&lt;/li&gt;
+  &lt;li&gt;move to the notebook location&lt;/li&gt;
+  &lt;li&gt;start the jupyter notebook session&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_launch_python_notebook/start_jupyter_session.png&quot; alt=&quot;top folder of jupyter notebook&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To test your system, start any of the notebook (files ending by &lt;em&gt;pynb&lt;/em&gt;) by clicking its name&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_launch_python_notebook/click_notebook.png&quot; alt=&quot;click notebook&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and make sure the &lt;strong&gt;kernel&lt;/strong&gt; is named &lt;strong&gt;Python [default]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_launch_python_notebook/python_kernel_default.png&quot; alt=&quot;default kernel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the kernel is NOT &lt;strong&gt;Python [default]&lt;/strong&gt;, you need to change it by going to&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Kernel &amp;gt; Change kernel &amp;gt; Python [default]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_launch_python_notebook/change_kernel.png&quot; alt=&quot;new kernel&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="notebook" /><summary type="html">You will first need to connect to our analysis computer (check post in this web site)</summary></entry><entry><title type="html">How to log in to the CG1D analysis computer</title><link href="/software/2017/10/27/how-to-connect-to-our-analysis-computer.html" rel="alternate" type="text/html" title="How to log in to the CG1D analysis computer" /><published>2017-10-27T00:00:00-04:00</published><updated>2017-10-27T00:00:00-04:00</updated><id>/software/2017/10/27/how-to-connect-to-our-analysis-computer</id><content type="html" xml:base="/software/2017/10/27/how-to-connect-to-our-analysis-computer.html">&lt;p&gt;Using your favorite browser, go to the following page&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;https://cg1d-analysis2.ornl.gov&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_connect_to_our_analysis_computer/thinlinc_welcome_page.png&quot; alt=&quot;ThinLinc Welcome Page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then enter your &lt;strong&gt;ucams&lt;/strong&gt; and your &lt;strong&gt;password&lt;/strong&gt; and hit ENTER.&lt;/p&gt;
+
+&lt;p&gt;At this point, if you already started a session in the past, you may have to enter your password again in the
+screensaver window showing up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_connect_to_our_analysis_computer/thinlinc_screensaver.png&quot; alt=&quot;ThinLink Screensaver&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;otherwise, you will directly reach your desktop of our analysis computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/how_to_connect_to_our_analysis_computer/desktop_cg1d_analysis2.png&quot; alt=&quot;Your Desktop&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Using your favorite browser, go to the following page</summary></entry><entry><title type="html">Welcome to the ORNL Neutron Imaging FAQ!</title><link href="/general/2017/10/03/welcome-to-ORNL-neutron-imagingl.html" rel="alternate" type="text/html" title="Welcome to the ORNL Neutron Imaging FAQ!" /><published>2017-10-03T00:00:00-04:00</published><updated>2017-10-03T00:00:00-04:00</updated><id>/general/2017/10/03/welcome-to-ORNL-neutron-imagingl</id><content type="html" xml:base="/general/2017/10/03/welcome-to-ORNL-neutron-imagingl.html">&lt;p&gt;Using this web site, we are planning on making your life easier before, during and after your beam time at one of our ‘CG1D’ instrument.&lt;/p&gt;
+
+&lt;p&gt;We are trying to answer the most general questions but if you still can not find how to resolve your problem, feel free to contact us and we will
+get back to you very quickly.&lt;/p&gt;</content><author><name></name></author><summary type="html">Using this web site, we are planning on making your life easier before, during and after your beam time at one of our ‘CG1D’ instrument.</summary></entry></feed>
